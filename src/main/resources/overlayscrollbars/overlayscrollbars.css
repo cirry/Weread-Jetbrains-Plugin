@@ -1,0 +1,18 @@
+.os-scrollbar {
+  --os-size: 4px;
+  --os-padding-perpendicular: 2px;
+  --os-handle-border-radius: 0px;
+  --os-track-border-radius: 0;  --os-track-bg: rgba(128, 128, 128, 0.000000);
+  --os-track-bg-active: rgba(128, 128, 128, 0.000000);
+  --os-track-bg-hover: rgba(128, 128, 128, 0.000000);
+  --os-handle-bg: rgba(166, 166, 166, 0.278431);
+  --os-handle-bg-active: rgba(166, 166, 166, 0.278431);
+  --os-handle-bg-hover: rgba(166, 166, 166, 0.349020);
+  --os-handle-perpendicular-size: 100%;
+  --os-handle-perpendicular-size-hover: 100%;
+  --os-handle-perpendicular-size-active: 100%;
+}
+.os-scrollbar-handle {  outline: 1px solid rgba(56, 56, 56, 0.278431);
+}.os-scrollbar-handle:hover {  outline: 1px solid rgba(56, 56, 56, 0.349020);
+}.os-scrollbar-handle:active {  outline: 1px solid rgba(56, 56, 56, 0.349020);
+}
