@@ -1,32 +1,21 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.cirry.wxreaderjetbrainsplugin</id>
+
     <name>Weread</name>
+
     <vendor email="cdxtrv@qq.com" url="https://cirry.cn">Cirry</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <description><![CDATA[
-Provides support for My Framework.
-The support includes:
-<ul>
-  <li>code completion</li>
-  <li>references</li>
-</ul>
-For more information visit the
-<a href="https://example.com">project site</a>.
-]]></description>
-
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.cirry.wxreaderjetbrainsplugin.toolWindow.MyToolWindowFactory"
-                    icon="/icons/toolWindowIcon.svg" id="WeReader"/>
+        <toolWindow factoryClass="com.github.cirry.wxreaderjetbrainsplugin.toolWindow.MyToolWindowFactory" icon="/icons/toolWindowIcon.svg" id="WeRead"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.cirry.wxreaderjetbrainsplugin.listeners.MyApplicationActivationListener"
-                  topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.github.cirry.wxreaderjetbrainsplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
     <actions>
     </actions>
