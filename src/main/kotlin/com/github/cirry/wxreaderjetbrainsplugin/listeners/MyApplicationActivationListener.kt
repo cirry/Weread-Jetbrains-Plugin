@@ -1,4 +1,4 @@
-package com.github.cirry.wxreaderjetbrainsplugin.listeners
+package com.github.cirry.wereadjetbrainsplugin.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger

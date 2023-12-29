@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.cirry.wxreaderjetbrainsplugin</id>
+    <id>com.github.cirry.wereadjetbrainsplugin</id>
 
     <name>Weread</name>
 
@@ -11,11 +11,11 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.cirry.wxreaderjetbrainsplugin.toolWindow.MyToolWindowFactory" icon="/icons/toolWindowIcon.svg" id="WeRead"/>
+        <toolWindow factoryClass="com.github.cirry.wereadjetbrainsplugin.toolWindow.MyToolWindowFactory" icon="/icons/toolWindowIcon.svg" id="WeRead"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.cirry.wxreaderjetbrainsplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.github.cirry.wereadjetbrainsplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
     <actions>
     </actions>

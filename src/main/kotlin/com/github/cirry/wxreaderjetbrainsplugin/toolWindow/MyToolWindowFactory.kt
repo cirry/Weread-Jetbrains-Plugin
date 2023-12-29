@@ -1,6 +1,6 @@
-package com.github.cirry.wxreaderjetbrainsplugin.toolWindow
+package com.github.cirry.wereadjetbrainsplugin.toolWindow
 
-import com.github.cirry.wxreaderjetbrainsplugin.MyBundle
+import com.github.cirry.wereadjetbrainsplugin.MyBundle
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.wm.ToolWindow
 import com.intellij.openapi.wm.ToolWindowFactory

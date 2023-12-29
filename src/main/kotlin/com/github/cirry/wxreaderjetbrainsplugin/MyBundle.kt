@@ -1,4 +1,4 @@
-package com.github.cirry.wxreaderjetbrainsplugin
+package com.github.cirry.wereadjetbrainsplugin
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

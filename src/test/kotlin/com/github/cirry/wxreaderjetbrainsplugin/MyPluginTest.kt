@@ -1,4 +1,4 @@
-package com.github.cirry.wxreaderjetbrainsplugin
+package com.github.cirry.wereadjetbrainsplugin
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.openapi.components.service
@@ -6,7 +6,7 @@ import com.intellij.psi.xml.XmlFile
 import com.intellij.testFramework.TestDataPath
 import com.intellij.testFramework.fixtures.BasePlatformTestCase
 import com.intellij.util.PsiErrorElementUtil
-import com.github.cirry.wxreaderjetbrainsplugin.services.MyProjectService
+import com.github.cirry.wereadjetbrainsplugin.services.MyProjectService
 
 @TestDataPath("\$CONTENT_ROOT/src/test/testData")
 class MyPluginTest : BasePlatformTestCase() {

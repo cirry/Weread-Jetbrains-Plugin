@@ -1,4 +1,4 @@
-package com.github.cirry.wxreaderjetbrainsplugin
+package com.github.cirry.wereadjetbrainsplugin
 
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.PlatformDataKeys
