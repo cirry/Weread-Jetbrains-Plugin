@@ -29,11 +29,11 @@ class MyPluginTest : BasePlatformTestCase() {
 //        myFixture.testRename("foo.xml", "foo_after.xml", "a2")
 //    }
 
-//    fun testProjectService() {
-//        val projectService = project.service<MyProjectService>()
-//
-//        assertNotSame(projectService.getRandomNumber(), projectService.getRandomNumber())
-//    }
+    fun testProjectService() {
+        val projectService = project.service<MyProjectService>()
+
+        assertNotSame(projectService.getRandomNumber(), projectService.getRandomNumber())
+    }
 
     override fun getTestDataPath() = "src/test/testData/rename"
 }
