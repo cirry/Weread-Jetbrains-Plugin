@@ -17,7 +17,7 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-A WeChat Reading plugin supporting IDEA.
+A WeChat Reading plugin support IDEA.
 
 Full WeChat Reading functionality is available, allowing navigation using the arrow keys for reading. Please adjust the window to a suitable size before use.
 <!-- Plugin description end -->
@@ -26,7 +26,7 @@ Full WeChat Reading functionality is available, allowing navigation using the ar
 
 - Using the IDE built-in plugin system:
   
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "wxreader-Jetbrains-Plugin"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "WeRead-Jetbrains-Plugin"</kbd> >
   <kbd>Install</kbd>
   
 - Manually:

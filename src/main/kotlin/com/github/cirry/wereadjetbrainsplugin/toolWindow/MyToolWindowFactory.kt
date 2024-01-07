@@ -20,14 +20,14 @@ class MyToolWindowFactory : ToolWindowFactory {
     }
 
     override fun createToolWindowContent(project: Project, toolWindow: ToolWindow) {
-        val myToolWindow = MyToolWindow(toolWindow)
+        val myToolWindow = MyToolWindow()
         val content = ContentFactory.getInstance().createContent(myToolWindow.getContent(), "", false)
         toolWindow.contentManager.addContent(content)
     }
 
     override fun shouldBeAvailable(project: Project) = true
 
-    class MyToolWindow(toolWindow: ToolWindow) {
+    class MyToolWindow() {
         fun getContent() = JBPanel<JBPanel<*>>().apply {
             val noSupportLabel = JBLabel(MyBundle.message("noSupport"))
             if (JBCefApp.isSupported()) {
