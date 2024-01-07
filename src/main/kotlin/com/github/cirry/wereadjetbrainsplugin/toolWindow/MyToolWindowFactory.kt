@@ -32,7 +32,7 @@ class MyToolWindowFactory : ToolWindowFactory {
             val noSupportLabel = JBLabel(MyBundle.message("noSupport"))
             if (JBCefApp.isSupported()) {
                 val jbcef = JBCefBrowser()
-                jbcef.component.preferredSize = Dimension(800,900)
+                jbcef.component.preferredSize = Dimension(900,900)
                 add(jbcef.component, BorderLayout.CENTER)
                 jbcef.loadURL("https://weread.qq.com/")
             } else {
